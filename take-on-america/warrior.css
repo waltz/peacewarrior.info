@@ -1,0 +1,134 @@
+/* accent color: #00aaff */
+@font-face {
+  font-family: Leauge;
+  font-style: normal;
+  font-weight: normal;
+  src: url("league_gothic.otf");
+}
+@font-face {
+  font-family: Blackout;
+  font-style: normal;
+  font-weight: normal;
+  src: url("blackout.ttf");
+}
+#banner {
+  width: 500px;
+  border: 3px solid #000;
+  background-color: #000;
+  z-index: 1;
+  margin-bottom: 20px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  text-shadow:-1px -1px 5px #EBEBEB;
+  -webkit-box-shadow:3px 3px 4px #000;
+  -moz-box-shadow:3px 3px 4px #000;
+  box-shadow:3px 3px 4px #000;
+}
+#header {
+  padding: 15px;
+}
+#header h1 {
+  color: #fff;
+  background-color: #000;
+  border: 1px solid black;
+  text-align: center;
+  font-family: "Blackout", sans-serif;
+  font-size: 35pt;
+  margin: 0;
+  padding: 0;
+}
+#header h1 a {
+  text-decoration: none;
+  color: #fff;
+}
+#more_or_less {
+  color: #ddd;
+  text-decoration: none;
+  text-align: center;
+  display: block;
+}
+#more_or_less:hover {
+/*  color: #00aaff;*/
+  color: #777;
+}
+#info {
+  font-family: "Helvetica", sans-serif;
+  background-color: #fff;
+  color: #000;
+  display: none;
+  padding: 5px;
+}
+#info h3 {
+  margin: 0px;
+  padding: 3px;
+}
+#info p {
+  margin: 0px;
+  padding: 3px;
+}
+#map {
+  display:block;
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  z-index: 1;
+}
+
+/* Image popout styles. */
+.photo {
+  display: block;
+  overflow: hidden;
+  margin: none;
+  padding: none;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+.photo h2 {
+  font-family: "Blackout", sans-serif;
+  color: #000;
+  padding: none;
+  margin: 2px;
+  text-transform: uppercase;
+}
+.photo .description {
+  color: #444;
+  font-family: "Helvetica", sans-serif;
+  padding: none;
+  margin: 2px;
+  text-transform: lowercase;
+}
+.photo a {
+  text-decoration: none;
+  color: #fff;
+}
+.photo img {
+  margin: 2px;
+  padding: none;
+}
+.photo .bottom_bar {
+  margin: 2px;
+  padding: 0px;
+}
+.photo .permalink {
+  text-transform: lowercase;
+  font-family: "Helvetica", sans-serif;
+  font-size: 10px;
+  background-color: #000;
+  color: #fff;
+  text-decoration: none;
+  padding: 5px;
+  margin: 0px;
+  border: 1px solid #000;
+}
+.photo .permalink:hover {
+  background-color: #fff;
+  color: #000;
+}
+.photo .like_button {
+  float: right;
+  width: 95px;
+  height: 25px;
+}
